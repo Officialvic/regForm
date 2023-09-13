@@ -8,17 +8,16 @@
 </head>
 <body>
     <div class="container">
+
         <h3>Sign Up</h3>
-        <form action="" id="form">
-            <input type="text" name="" id="fullName" placeholder="First Name">
-            <input type="text" name="" id="lastName" placeholder="Last Name">
-            <input type="email" name="" id="email" placeholder="Email">
-            <input type="password" name="" id="password" placeholder="Password">
+        <form action="" name="regForm" id="regForm" onsubmit="saveData(event)">
+            <input type="text" name="firstName" id="firstName" placeholder="First Name"><br>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name"><br>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <input type="password" name="password" id="password" placeholder="Password"><br>
+            <input type="submit">
         </form>
         <p>Already a member? <a href="index.html">Log in</a></p>
-        <button type="submit">
-            <a href="signup.html">Sign up</a>
-        </button>
     </div>
 
     <script src="main.js"></script>
