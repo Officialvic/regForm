@@ -40,6 +40,8 @@ let login = (e) => {
 
     if (filteredDetail.loginEmail === registeredUsers.email && filteredDetail.loginPassword === registeredUsers.password) {
         alert('Welcome onboard dear user');
+    } else if (filteredDetail === null) {
+        alert("Incorrect Email or Password. Kindly signup if you don't an account yet")
     } else {
         alert("Incorrect Email or Password. Kindly signup if you don't an account yet")
     }
